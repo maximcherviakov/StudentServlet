@@ -1,0 +1,40 @@
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    background-image: url("../images/landscape.webp");
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #0068ee;
+}
+
+#page {
+    width: 800px;
+    margin: auto;
+}
+
+form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 0 10px 0 0;
+}
+
+input [type = submit] {
+    margin: auto;
+}
+
+.list, .list td, .list th {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.list td, .list th {
+    padding: 10px;
+}
